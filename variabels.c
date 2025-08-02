@@ -14,7 +14,7 @@ int main(){
     double pi = 3.14159265358979323846; // 8 bytes
     char grade = 'A'; // 1 bytes
     char name[] = "Febra S"; // 8 bytes (8 char + null)
-    bool isOnline = true; // 1 bytes (membutuhkan library stdbool)
+    bool isOnline = true; // 1 bytes
 
     printf("%d\n",age);
     printf("%.2f\n",gpa);
