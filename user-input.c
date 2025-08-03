@@ -30,7 +30,7 @@ int main(){
     printf("Enter your name : ");
     //scanf("%s",&name);
     // Kita juga bisa menggunakan fungsi fgets
-    fgets(name,30,stdin);
+    fgets(name,sizeof(name),stdin);
     
     printf("Age   :%d\n",age);
     printf("GPA   :%f\n",gpa);
