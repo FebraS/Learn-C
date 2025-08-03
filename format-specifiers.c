@@ -13,12 +13,10 @@ int main()
     float secondPrice = 100.34;
     float thirdPrice = -30.67;
     
-    
     // Menampilkan 4 spasi dari kiri
     printf("%4d\n",firstNum);
     printf("%4d\n",secondNum);
     printf("%4d\n",thirdNum);
-    
     
     // Menampilkan 4 spasi dari kanan
     printf("\n");
@@ -34,20 +32,17 @@ int main()
     printf("%04d\n",secondNum);
     printf("%04d\n",thirdNum);
     
-    
     // Menampilkan hanya dua dibelakang koma
     printf("%.2f\n",firstPrice);
     printf("%.2f\n",secondPrice);
     printf("%.2f\n",thirdPrice);
     
-
     // Menampilkan spasi sebanyak 16 kali serta
     // tanda bagi angka yang bernilai positif
     printf("\n");
     printf("%+16.2f\n",firstPrice);
     printf("%+16.2f\n",secondPrice);
     printf("%+16.2f\n",thirdPrice);
-    
     
     return 0;
 }
