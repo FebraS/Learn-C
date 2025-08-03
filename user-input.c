@@ -5,7 +5,7 @@ int main(){
     int age;
     float gpa;
     char grade = '\n';
-    char name[30] = "";
+    char name[30];
     
     printf("Enter your age : ");
     scanf("%d",&age);
@@ -25,7 +25,7 @@ int main(){
     scanf(" %c",&grade); // Menambahkan spasi sebelum spesifier char (%c)
     
     printf("Enter your name : ");
-    //scanf("%s",&name);
+    //scanf("%s",name);
     // Kita juga bisa menggunakan fungsi fgets
     fgets(name,sizeof(name),stdin);
     
