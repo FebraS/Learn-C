@@ -23,5 +23,12 @@ int main(){
     printf("%s\n",name);
     printf("%d\n",isOnline);
     
+    
+    // Mengubah nilai variabel 
+    age = 30;
+    
+    // Sekarang nilai dari variabel age adalah 30
+    printf("%d\n",age);
+    
     return 0;
 }
