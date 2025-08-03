@@ -26,8 +26,8 @@ int main(){
     printf("%d-- = %-8.d\n",y,(y--));
     
     
-    // Untuk menabahkan seperti :
-    // x = x + 10, bisa dipersingkat dengan x += 10;
+    // Untuk menjumlah seperti x = x + 10
+    // bisa dipersingkat dengan x += 10;
     
     return 0;
 }
