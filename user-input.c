@@ -7,19 +7,16 @@ int main(){
     char grade = '\n';
     char name[30] = "";
     
-    
     printf("Enter your age : ");
     scanf("%d",&age);
     
     printf("Enter your gpa : ");
     scanf("%f",&gpa); // Input ini akan meninggalkan karakter newline
     
-    
     // Kita wajib membersihkan buffer sebelum memanggil scanf lagi, 
     // terutama jika Anda menggunakan %c. Jika tidak, 
     // karakter newline (\n) dari input sebelumnya akan 
     // tertinggal di buffer dan langsung terbaca oleh scanf berikutnya. 
-    
     
     // Cara termudah untuk membersihkan karakter newline bisa
     // dengan menambahkan spasi sebelum specifier
