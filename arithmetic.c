@@ -25,7 +25,6 @@ int main(){
     printf("%d++ = %-8.d\n",x,(x++));
     printf("%d-- = %-8.d\n",y,(y--));
     
-    
     // Untuk menjumlah seperti x = x + 10
     // bisa dipersingkat dengan x += 10;
     
