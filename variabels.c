@@ -23,7 +23,6 @@ int main(){
     printf("%s\n",name);
     printf("%d\n",isOnline);
     
-    
     // Mengubah nilai variabel 
     age = 30;
     
