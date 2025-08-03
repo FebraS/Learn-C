@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.>
 
 int main(){
     
@@ -24,6 +25,7 @@ int main(){
     printf("Enter your grade : ");
     scanf(" %c",&grade); // Menambahkan spasi sebelum spesifier char (%c)
     
+    getchar();
     printf("Enter your name : ");
     //scanf("%s",name);
     // Kita juga bisa menggunakan fungsi fgets
